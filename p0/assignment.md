@@ -41,7 +41,7 @@ The final result of the *P0* assignment should look similar to the image below:
 	* You can choose a fill color
 	* Use fill opacity to indicate overlapping marks
 * Axis title
-	* Add a text label: "Accuracy (x̄)" 
+	* Add a text label: "Accuracy (mean)" 
 * Aggregated statistics
 	* Show a text label with the average accuracy for each trial on the right side of the chart. Round to two decimal places.
 	* *Hint:* You can use [d3.rollups](https://observablehq.com/@d3/d3-group#rollups) to group data points and compute summary statistics (Example: `d3.rollups(athletes, v => d3.sum(v, d => d.earnings), d => d.sport)` computes the total earnings in each sports discipline based on a given athletes dataset)
